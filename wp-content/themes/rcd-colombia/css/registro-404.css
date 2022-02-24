@@ -1,0 +1,175 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .fondo-des {
+    background-image: url("../assets/fondo.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-position: bottom;
+} */
+
+.fondo-gracias{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-pink {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.btn-pink a {
+    color: #fff !important;
+    padding: 10px 50px;
+    background: #ED1954;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.subti {
+    margin: 30px auto;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.img-m {
+    display: block;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.mobile {
+    display: none;
+}
+
+.fondo-mob {
+    background: none;
+}
+
+.aliados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aliado {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    text-align: center;
+    width: 85%;
+}
+
+.bg-mob-error {
+    background: none;
+}
+
+.piezas {
+    margin-top: 50px;
+}
+
+
+/* BREAKPOINTS */
+
+
+@media (max-width: 413.98px) {
+    .subti {
+        font-size: 28px;
+    }
+
+    .img-m {
+        width: 100%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .fondo-mob {
+        background-image: url("../imgs/fm-exi.png");
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        background-position: bottom;
+    }
+
+    .fondo-des {
+        background: none;
+    }
+
+    .bg-mob-error {
+        background-image: url("../imgs/fondo-mobile.png");
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        background-position: bottom;
+    }
+}
+
+
+@media (min-width: 414px) and (max-width: 575.98px) {
+    .subti {
+        font-size: 32px;
+    }
+
+    .img-m {
+        width: 100%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .fondo-mob {
+        background-image: url("../imgs/fm-exi.png");
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        background-position: bottom;
+    }
+
+    .fondo-des {
+        background: none;
+    }
+
+    .bg-mob-error {
+        background-image: url("../imgs/fondo-mobile.png");
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        background-position: bottom;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 767px) and (max-width: 992px) {}
+
+@media (max-width: 1200px) and (min-width: 992px) {}
+
+@media (min-width: 1200px) {}

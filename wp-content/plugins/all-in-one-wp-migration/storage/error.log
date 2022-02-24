@@ -1,0 +1,9 @@
+Oct 16 2020 02:14:40
+{"type":8,"message":"Trying to get property 'simple' of non-object","file":"C:\\Users\\Desktop\\Local Sites\\communitydev\\app\\public\\wp-content\\plugins\\Ultimate_VC_Addons\\admin\\bsf-core\\plugin-installer\\admin-functions.php","line":113}
+
+Oct 16 2020 05:11:01
+{"Number":8,"Message":"unserialize(): Error at offset 629 of 635 bytes","File":"C:\\Users\\Desktop\\Local Sites\\communitydev\\app\\public\\wp-includes\\functions.php","Line":624}
+
+Oct 16 2020 05:11:01
+{"Number":8,"Message":"unserialize(): Error at offset 629 of 635 bytes","File":"C:\\Users\\Desktop\\Local Sites\\communitydev\\app\\public\\wp-includes\\functions.php","Line":624}
+
